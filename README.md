@@ -5,7 +5,8 @@ This package is a fork of [epubx.dart](https://github.com/ScerIO/epubx.dart)
 I have made some changes to the original package,
 
 - removed "test res floder" to reduce the size of the package.
-- update 
+- update image dependency to ^4.1.0
+- updated the version of the package to 4.0.2
 
 [Flutter UI implementation](https://pub.dev/packages/epub_view)
 
@@ -14,14 +15,18 @@ Epub Reader and Writer for Dart inspired by [this fantastic C# Epub Reader](http
 This does not rely on the ```dart:io``` package in any way, so it is avilable for both desktop and web-based implementations
 
 [![pub package](https://img.shields.io/pub/v/epubx.svg)](https://pub.dartlang.org/packages/epubx)
+
 ## Installing
+
 Add the package to the ```dependencies``` section of your pubspec.yaml
+
 ```
 dependencies:
   epubx: any
 ```
 
 ## Example
+
 ```dart
 
 //Get the epub into memory somehow
